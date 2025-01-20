@@ -11,8 +11,8 @@
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::sports-analytics-data-lake",
-                "arn:aws:s3:::sports-analytics-data-lake/*"
+                "arn:aws:s3:::icey-nba-data-lake-09812",
+                "arn:aws:s3:::icey-nba-data-lake-09812/*"
             ]
         },
         {
@@ -49,7 +49,7 @@
                 "s3:PutObject"
             ],
             "Resource": [
-                "arn:aws:s3:::sports-analytics-data-lake/athena-results/*"
+                "arn:aws:s3:::icey-nba-data-lake-09812/athena-results/*"
             ]
         }
     ]
